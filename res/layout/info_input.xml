@@ -23,9 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:text="Arriving"
         android:paddingBottom="6dp"
+        android:text="Arriving"
         android:textSize="18sp" />
 
     <EditText
@@ -73,5 +72,130 @@
         android:text="Departing"
         android:paddingBottom="6dp"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txt2"
+        android:layout_below="@+id/imageView1"
+        android:paddingBottom="6dp"
+        android:text="Outdoor"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/hiking" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/museum" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignTop="@+id/imageView2"
+        android:src="@drawable/c_shopping" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="6dp"
+        android:text="Museum"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView02"
+        android:layout_alignBottom="@+id/TextView02"
+        android:layout_alignLeft="@+id/imageView3"
+        android:paddingBottom="6dp"
+        android:text="Shopping"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/imageView4"
+        android:paddingBottom="6dp"
+        android:text="Historic"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:src="@drawable/c_historic" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/TextView04"
+        android:layout_alignLeft="@+id/imageView2"
+        android:src="@drawable/c_nightlife" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView2"
+        android:layout_alignRight="@+id/TextView02"
+        android:layout_below="@+id/ImageView01"
+        android:paddingBottom="6dp"
+        android:text="Historic"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView02"
+        android:layout_below="@+id/ImageView01"
+        android:paddingBottom="6dp"
+        android:text="Nightlife"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView06"
+        android:layout_alignLeft="@+id/TextView03"
+        android:layout_alignTop="@+id/TextView05"
+        android:layout_marginLeft="23dp"
+        android:paddingBottom="6dp"
+        android:text="Arts"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/TextView03"
+        android:layout_below="@+id/TextView03"
+        android:src="@drawable/c_performance" />
 
 </RelativeLayout>
