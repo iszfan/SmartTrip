@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tripplanner.MainPage" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/orange"
+        android:text="Next" 
+        android:typeface="sans"
+        android:textSize="20sp"
+        android:textColor="@color/gray"/>
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/search"
+        android:ems="10"
+        android:text="Look Up Your Destination Here"
+        android:textColor="@color/light_white"
+        android:typeface="sans" 
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/popular_desti"
+        android:textColor="@color/gray"
+        android:textSize="23sp"
+        android:typeface="sans" />
+
+    <ImageView
+        android:id="@+id/houston"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/houston_s" />
+
+    <ImageView
+        android:id="@+id/sanfran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/honolulu"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/la"
+        android:padding="10dp"
+        android:src="@drawable/sanfran_s" />
+
+    <ImageView
+        android:id="@+id/honolulu"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button1"
+        android:layout_below="@+id/la"
+        android:src="@drawable/honolulu_s" />
+
+    <ImageView
+        android:id="@+id/la"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/houston"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:src="@drawable/la_s" />
+
+</RelativeLayout>

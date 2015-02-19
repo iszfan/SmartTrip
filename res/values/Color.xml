@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name = "dark_brown">#2f1817</color>
+ <color name = "light_white">#E6D8D0</color>
+ <color name = "red">#D33835</color>
+ <color name = "grey">#CAC088</color>
+ <color name = "teal">#7A94A3</color>
+ <color name = "light_blue">#7eb2c3</color>
+ <color name = "light_brown">#c9aea8</color>
+ <color name = "white2">#FBEEDE</color>
+ <color name = "grey2">#DBDCD1</color>
+ <color name = "bg">#0Dc9aea8</color>
+ <color name="orange">#d2643c</color>
+ <color name="clouds">#ecf0f1</color>
+ <color name="white">#ffffff</color>
+ <color name="transparent">#00000000</color>
+ <color name="date_color">#999999</color>
+ <color name="black">#000000</color>
+ <color name="gray">#7f8c8d</color>
+<!--  <color name="blue">#0066cc</color> -->
+ <color name="gold">#e6b121</color>
+ <color name="blueback">#99FFFF</color>
+ <color name="articlecolor">#3399FF</color> 
+ <color name="article_title">#3399FF</color> 
+ <color name="cachecolor">#8ad0e8</color>
+</resources>

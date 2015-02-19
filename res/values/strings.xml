@@ -2,7 +2,9 @@
 <resources>
 
     <string name="app_name">TripPlanner</string>
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="saved_trip">Your Saved Trip</string>
+    <string name="new_trip">Create New Trip</string>
+    <string name="popular_desti">Or select one of the popular destinations</string>
 
 </resources>
