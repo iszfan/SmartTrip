@@ -37,7 +37,7 @@ public class MainPage extends Activity {
         public void onClick(View v) {
         	Intent i=new Intent(
                     MainPage.this,
-                    Destination.class);
+                    InfoInput.class);
              startActivity(i);
         }
       };

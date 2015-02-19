@@ -6,20 +6,68 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.tripplanner.MainPage" >
+    tools:context="com.example.tripplanner.MainPage"
+    android:background="@color/clouds"  >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="hello_world" />
 
-    <Button
+
+    <!-- <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="83dp"
-        android:text="Button" />
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:text="Button" /> -->
+
+
+     <Button
+         android:id="@+id/Button02"
+         android:layout_width="match_parent"
+         android:layout_height="160dp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:background="@drawable/hotel1"
+         android:paddingTop="10dp" />
+
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="match_parent"
+         android:layout_height="160dp"
+         android:layout_alignLeft="@+id/Button02"
+         android:layout_alignParentTop="true"
+         android:background="@drawable/flight1" />
+
+     <Button
+         android:id="@+id/Button01"
+         android:layout_width="match_parent"
+         android:layout_height="160dp"
+         android:layout_alignLeft="@+id/button1"
+         android:layout_centerVertical="true"
+         android:background="@drawable/schedule1" />
+
+     <CheckBox
+         android:id="@+id/CheckBox05"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/checkBox1"
+         android:layout_alignBottom="@+id/checkBox1"
+         android:layout_alignLeft="@+id/checkBox1"
+         android:button="@drawable/checkbox" />
+
+     <CheckBox
+         android:id="@+id/CheckBox06"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/CheckBox04"
+         android:layout_alignTop="@+id/Button01"
+         android:button="@drawable/checkbox" />
+
+     <CheckBox
+         android:id="@+id/CheckBox07"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/Button02"
+         android:layout_alignTop="@+id/Button02"
+         android:button="@drawable/checkbox" />
 
 </RelativeLayout>

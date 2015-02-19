@@ -3,17 +3,21 @@ package com.example.tripplanner;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 
 public class InfoInput extends Activity {
 
 	Button btn1;
+	TextView text1;
+	TextView text2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +25,14 @@ public class InfoInput extends Activity {
         
         btn1 = (Button) findViewById(R.id.button1);
         btn1.setOnClickListener(next);
+        text1 = (TextView) findViewById(R.id.txt1);
+        text2 = (TextView) findViewById(R.id.txt2);
+        btn1 = (Button) findViewById(R.id.button1);
+        btn1.setOnClickListener(next);
+        Typeface font = Typeface.createFromAsset(getAssets(), "mindblue.regular.otf");
+      
+        text1.setTypeface(font);
+        text2.setTypeface(font);
     }
 
     OnClickListener next = new OnClickListener() {
