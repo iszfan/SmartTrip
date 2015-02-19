@@ -28,7 +28,7 @@ public class Destination extends Activity {
         btn1.setOnClickListener(next);
         Typeface font = Typeface.createFromAsset(getAssets(), "mindblue.regular.otf");
       
-        select.setTypeface(font);
+//        select.setTypeface(font);
     }
 
     OnClickListener next = new OnClickListener() {

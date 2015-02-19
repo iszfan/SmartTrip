@@ -19,8 +19,8 @@ public class AttractionSelect extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.attraction_select);
         
-        btn1 = (Button) findViewById(R.id.button1);
-        btn1.setOnClickListener(next);
+//        btn1 = (Button) findViewById(R.id.button1);
+//        btn1.setOnClickListener(next);
     }
 
     OnClickListener next = new OnClickListener() {

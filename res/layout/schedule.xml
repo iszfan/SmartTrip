@@ -6,11 +6,95 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.tripplanner.MainPage" >
+    tools:context="com.example.tripplanner.MainPage" 
+    android:background="@color/clouds">
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="hello_world" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="23dp"
+        android:text="19\nThu"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@color/orange"
+        android:textColor="@color/white"
+        android:drawableBottom="@drawable/line"
+        android:text="Palace of Fine Arts \n 10:00 AM - 11 PM" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/Button02"
+        android:layout_marginTop="54dp"
+        android:text="20\nFri"
+        android:textSize="32dp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:drawableBottom="@drawable/line"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:background="@color/light_blue"
+        android:text="Ferry Building Market Place \n 1 PM - 3 PM"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/Button01"
+        android:layout_below="@+id/Button01"
+        android:drawableBottom="@drawable/line"
+        android:background="@color/gray"
+        android:text="Baker Beach \n 4 PM - 6 PM"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/Button05"        
+        android:layout_width="300dp"
+        android:drawableBottom="@drawable/line"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button04"
+        android:layout_below="@+id/Button04"
+        android:background="@color/orange"
+        android:text="Lincoln Park \n 12 PM - 3 PM"
+        android:textColor="@color/gray" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:drawableBottom="@drawable/line"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_alignTop="@+id/TextView01"
+        android:background="@color/light_blue"
+        android:text="Asian Art Museums \n 10 AM - 11 AM"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="300dp"
+        android:layout_height="500dp"
+        android:drawableBottom="@drawable/line"
+        android:layout_alignLeft="@+id/Button03"
+        android:layout_below="@+id/Button03"
+        android:background="@color/orange"
+        android:text="Lincoln Park \n 12 PM - 3 PM"
+        android:textColor="@color/white" />
 
 </RelativeLayout>

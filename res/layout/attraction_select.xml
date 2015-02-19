@@ -2,24 +2,108 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/clouds"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.tripplanner.MainPage" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="hello_world" />
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/o_checkbox"
+        android:drawableBottom="@drawable/line"
+        android:text="Palace of Fine Arts"
+        android:drawableRight="@drawable/museum_s" />
 
     <Button
-        android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:id="@+id/Button03"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/Button02"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/o_checkbox"
+        android:drawableBottom="@drawable/line"
+        android:text="Asian Art Museum" 
+        android:drawableRight="@drawable/museum_s"
+        />
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/Button03"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/line"
+        android:drawableLeft="@drawable/o_checkbox"
+        android:text="Ferry Building Market Place" 
+        android:drawableRight="@drawable/shopping_s"/>
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/Button04"
+        android:drawableBottom="@drawable/line"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/o_checkbox"
+        android:text="City Lights Booksellers"
+        android:drawableRight="@drawable/shopping_s" />
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:drawableBottom="@drawable/line"
+        android:layout_below="@+id/Button05"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/o_checkbox"
+        android:text="Streets of San Fran Bike Tours"
+        android:drawableRight="@drawable/outdoor_s" />
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/Button06"
+        android:drawableBottom="@drawable/line"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/o_checkbox"
+        android:text="Baker Beach" 
+        android:drawableRight="@drawable/outdoor_s"/>
+    <Button
+        android:id="@+id/Button08"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/Button07"
+        android:background="@color/white"
+        android:drawableBottom="@drawable/line"
+        android:drawableLeft="@drawable/o_checkbox"
+        android:text="Angel Island State Park"
+        android:drawableRight="@drawable/outdoor_s" />
+    <Button
+        android:id="@+id/Button09"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_below="@+id/Button08"
+        android:drawableBottom="@drawable/line"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/o_checkbox"
+        android:text="Lincoln Park"
+        android:drawableRight="@drawable/outdoor_s" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Button09"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="52dp"
-        android:text="Button" />
+        android:background="@drawable/next" />
 
 </RelativeLayout>

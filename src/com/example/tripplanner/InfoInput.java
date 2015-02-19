@@ -47,17 +47,17 @@ public class InfoInput extends Activity {
        
         btn1 = (Button) findViewById(R.id.button1);
 //        btn1.setOnClickListener(next);
-        Typeface font = Typeface.createFromAsset(getAssets(), "mindblue.regular.otf");
-      
-        text1.setTypeface(font);
-        text2.setTypeface(font);
-        text3.setTypeface(font);
-        text4.setTypeface(font);
-        text5.setTypeface(font);
-        text6.setTypeface(font);
-        text7.setTypeface(font);
-        text8.setTypeface(font);
-        text9.setTypeface(font);
+        Typeface font = Typeface.createFromAsset(getAssets(), "gasalt.regular.ttf");
+//      
+//        text1.setTypeface(font);
+//        text2.setTypeface(font);
+//        text3.setTypeface(font);
+//        text4.setTypeface(font);
+//        text5.setTypeface(font);
+//        text6.setTypeface(font);
+//        text7.setTypeface(font);
+//        text8.setTypeface(font);
+//        text9.setTypeface(font);
 
     }
 

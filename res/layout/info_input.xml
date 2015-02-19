@@ -99,7 +99,7 @@
         android:layout_height="80dp"
         android:layout_alignTop="@+id/imageView1"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/museum" />
+        android:src="@drawable/museum_s" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -117,7 +117,7 @@
         android:layout_centerHorizontal="true"
         android:paddingBottom="6dp"
         android:text="Museum"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/TextView03"
@@ -126,9 +126,10 @@
         android:layout_alignBaseline="@+id/TextView02"
         android:layout_alignBottom="@+id/TextView02"
         android:layout_alignLeft="@+id/imageView3"
+        android:layout_marginRight="-20dp"
         android:paddingBottom="6dp"
         android:text="Shopping"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/TextView04"
@@ -138,7 +139,7 @@
         android:layout_below="@+id/imageView4"
         android:paddingBottom="6dp"
         android:text="Historic"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -166,7 +167,7 @@
         android:layout_below="@+id/ImageView01"
         android:paddingBottom="6dp"
         android:text="Historic"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/TextView06"
@@ -176,7 +177,7 @@
         android:layout_below="@+id/ImageView01"
         android:paddingBottom="6dp"
         android:text="Nightlife"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/TextView07"
@@ -188,7 +189,7 @@
         android:layout_marginLeft="23dp"
         android:paddingBottom="6dp"
         android:text="Arts"
-        android:textSize="18sp" />
+        android:textSize="15sp" />
 
     <ImageView
         android:id="@+id/ImageView02"

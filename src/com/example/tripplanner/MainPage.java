@@ -22,12 +22,14 @@ public class MainPage extends Activity {
         add = (ImageView) findViewById(R.id.add);
         add.setOnClickListener(next);
         TextView txt = (TextView) findViewById(R.id.textView1);
+//        TextView txt4 = (TextView) findViewById(R.id.textView2);
         TextView txt2 = (TextView) findViewById(R.id.saved_trip);
         TextView txt3 = (TextView) findViewById(R.id.new_trip);
 //        img1 = (ImageView) findViewById(R.id.airplane);
         Typeface font = Typeface.createFromAsset(getAssets(), "gasalt.regular.ttf");
         Typeface font2 = Typeface.createFromAsset(getAssets(), "gasalt.black.ttf");
         txt.setTypeface(font);
+//        txt4.setTypeface(font);
         txt2.setTypeface(font2);
         txt3.setTypeface(font2);
     }
@@ -37,7 +39,7 @@ public class MainPage extends Activity {
         public void onClick(View v) {
         	Intent i=new Intent(
                     MainPage.this,
-                    InfoInput.class);
+                    Destination.class);
              startActivity(i);
         }
       };
